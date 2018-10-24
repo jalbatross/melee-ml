@@ -6,7 +6,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import promise from 'redux-promise';
 
 import reducers from './reducers';
-import App from 'app';
+import App from './App';
 
 
 
@@ -24,4 +24,4 @@ ReactDOM.render(
       </div>
     </BrowserRouter>
   </Provider>
-  , document.querySelector('.container'));
+  , document.querySelector('#root'));
